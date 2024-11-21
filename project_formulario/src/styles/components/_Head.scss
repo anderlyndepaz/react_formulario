@@ -1,0 +1,14 @@
+@import "../utils/Variables";
+@import "../utils/Mixins";
+
+header {
+    text-align: center;
+    background-color: $primary-color;
+    color: white;
+    padding: $padding;
+    border-radius: $border-radius;
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,28 @@
+@import "../utils/Variables";
+@import "../utils/Mixins";
+.card {
+    margin: 2rem auto;
+    padding: $padding;
+    background-color: white;
+    border-radius: $border-radius;
+    @include box-shadow();
+    width: 100%;
+    max-width: 400px;
+
+    h2 {
+        color: $primary-color;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin: 0.5rem 0;
+    }
+
+    img {
+        display: block;
+        margin: 1rem auto;
+        max-width: 100px;
+        border-radius: 50%;
+        border: 2px solid $primary-color;
+    }
+}
